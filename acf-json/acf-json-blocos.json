@@ -1,0 +1,896 @@
+{
+  "key": "group_json_bloco",
+  "title": "Content",
+  "fields": [
+    {
+      "key": "field_header",
+      "label": "Header",
+      "name": "header",
+      "type": "group",
+      "sub_fields": [
+        {
+          "key": "field_header_title",
+          "label": "Título",
+          "name": "title",
+          "type": "text"
+        },
+        {
+          "key": "field_header_subtitle",
+          "label": "Subtítulo",
+          "name": "subtitle",
+          "type": "textarea"
+        },
+        {
+          "key": "field_header_buttonScroll",
+          "label": "Scroll (ícone)",
+          "name": "buttonScroll",
+          "type": "image",
+          "return_format": "url"
+        },
+        {
+          "key": "field_header_pattern",
+          "label": "Pattern",
+          "name": "pattern",
+          "type": "image",
+          "return_format": "url"
+        }
+      ]
+    },
+    {
+      "key": "field_menu",
+      "label": "Menu",
+      "name": "menu",
+      "type": "group",
+      "sub_fields": [
+        {
+          "key": "field_menu_logo",
+          "label": "Logo",
+          "name": "logo",
+          "type": "image",
+          "return_format": "url"
+        },
+        {
+          "key": "field_menu_buttonBack",
+          "label": "Botão Voltar",
+          "name": "buttonBack",
+          "type": "image",
+          "return_format": "url"
+        },
+        {
+          "key": "field_menu_category",
+          "label": "Categorias",
+          "name": "category",
+          "type": "group",
+          "sub_fields": [
+            {
+              "key": "field_menu_cat_1",
+              "label": "Categoria 1",
+              "name": "Categoria_1",
+              "type": "text"
+            },
+            {
+              "key": "field_menu_cat_2",
+              "label": "Categoria 2",
+              "name": "Categoria_2",
+              "type": "text"
+            },
+            {
+              "key": "field_menu_cat_3",
+              "label": "Categoria 3",
+              "name": "Categoria_3",
+              "type": "text"
+            },
+            {
+              "key": "field_menu_cat_4",
+              "label": "Categoria 4",
+              "name": "Categoria_4",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "field_image_cards",
+      "label": "Image Cards",
+      "name": "image_cards",
+      "type": "group",
+      "sub_fields": [
+        {
+          "key": "field_image_cards_title",
+          "label": "Título",
+          "name": "title",
+          "type": "text"
+        },
+        {
+          "key": "field_image_cards_description",
+          "label": "Descrição",
+          "name": "description",
+          "type": "textarea"
+        },
+        {
+          "key": "field_image_cards_cards",
+          "label": "Card",
+          "name": "cards",
+          "type": "group",
+          "sub_fields": [
+            {
+              "key": "field_image_cards_cards_card_1",
+              "label": "Card 1",
+              "name": "card_1",
+              "type": "group",
+              "sub_fields": [
+                {
+                  "key": "field_image_cards_cards_card_1_imagemUrl",
+                  "label": "Imagemurl",
+                  "name": "imagemUrl",
+                  "type": "image",
+                  "return_format": "url"
+                },
+                {
+                  "key": "field_image_cards_cards_card_1_title",
+                  "label": "Title",
+                  "name": "title",
+                  "type": "text"
+                },
+                {
+                  "key": "field_image_cards_cards_card_1_description",
+                  "label": "Description",
+                  "name": "description",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "key": "field_image_cards_cards_card_2",
+              "label": "Card 2",
+              "name": "card_2",
+              "type": "group",
+              "sub_fields": [
+                {
+                  "key": "field_image_cards_cards_card_2_imagemUrl",
+                  "label": "Imagemurl",
+                  "name": "imagemUrl",
+                  "type": "image",
+                  "return_format": "url"
+                },
+                {
+                  "key": "field_image_cards_cards_card_2_title",
+                  "label": "Title",
+                  "name": "title",
+                  "type": "text"
+                },
+                {
+                  "key": "field_image_cards_cards_card_2_description",
+                  "label": "Description",
+                  "name": "description",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "key": "field_image_cards_cards_card_3",
+              "label": "Card 3",
+              "name": "card_3",
+              "type": "group",
+              "sub_fields": [
+                {
+                  "key": "field_image_cards_cards_card_3_imagemUrl",
+                  "label": "Imagemurl",
+                  "name": "imagemUrl",
+                  "type": "image",
+                  "return_format": "url"
+                },
+                {
+                  "key": "field_image_cards_cards_card_3_title",
+                  "label": "Title",
+                  "name": "title",
+                  "type": "text"
+                },
+                {
+                  "key": "field_image_cards_cards_card_3_description",
+                  "label": "Description",
+                  "name": "description",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "key": "field_image_cards_cards_card_4",
+              "label": "Card 4",
+              "name": "card_4",
+              "type": "group",
+              "sub_fields": [
+                {
+                  "key": "field_image_cards_cards_card_4_imagemUrl",
+                  "label": "Imagemurl",
+                  "name": "imagemUrl",
+                  "type": "image",
+                  "return_format": "url"
+                },
+                {
+                  "key": "field_image_cards_cards_card_4_title",
+                  "label": "Title",
+                  "name": "title",
+                  "type": "text"
+                },
+                {
+                  "key": "field_image_cards_cards_card_4_description",
+                  "label": "Description",
+                  "name": "description",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "field_album",
+      "label": "Album",
+      "name": "album",
+      "type": "group",
+      "sub_fields": [
+        {
+          "key": "field_album_title",
+          "label": "Título",
+          "name": "title",
+          "type": "text"
+        },
+        {
+          "key": "field_album_description",
+          "label": "Descrição",
+          "name": "description",
+          "type": "textarea"
+        },
+        {
+          "key": "field_album_imagens",
+          "label": "Imagem",
+          "name": "imagens",
+          "type": "group",
+          "sub_fields": [
+            {
+              "key": "field_album_imagens_imagem_1_imagemUrl",
+              "label": "Imagemurl1",
+              "name": "imagemUrl1",
+              "type": "image",
+              "return_format": "url"
+            },
+            {
+              "key": "field_album_imagens_imagem_2_imagemUrl",
+              "label": "Imagemurl2",
+              "name": "imagemUrl2",
+              "type": "image",
+              "return_format": "url"
+            },
+            {
+              "key": "field_album_imagens_imagem_3_imagemUrl",
+              "label": "Imagemurl3",
+              "name": "imagemUrl3",
+              "type": "image",
+              "return_format": "url"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "field_promo_app",
+      "label": "Promo App",
+      "name": "promo_app",
+      "type": "group",
+      "sub_fields": [
+        {
+          "key": "field_promo_app_title",
+          "label": "Título",
+          "name": "title",
+          "type": "text"
+        },
+        {
+          "key": "field_promo_app_description",
+          "label": "Descrição",
+          "name": "description",
+          "type": "textarea"
+        }
+      ]
+    },
+    {
+      "key": "field_tags",
+      "label": "Tags",
+      "name": "tags",
+      "type": "group",
+      "sub_fields": [
+        {
+          "key": "field_tags_title",
+          "label": "Título",
+          "name": "title",
+          "type": "text"
+        },
+        {
+          "key": "field_tags_names",
+          "label": "Tag",
+          "name": "tagNames",
+          "type": "group",
+          "sub_fields": [
+            {
+              "key": "field_tags_names_tag_1",
+              "label": "Tag 1",
+              "name": "tag_1",
+              "type": "group",
+              "sub_fields": [
+                {
+                  "key": "field_tags_names_tag_1_tagName",
+                  "label": "Tagname",
+                  "name": "tagName",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "key": "field_tags_names_tag_2",
+              "label": "Tag 2",
+              "name": "tag_2",
+              "type": "group",
+              "sub_fields": [
+                {
+                  "key": "field_tags_names_tag_2_tagName",
+                  "label": "Tagname",
+                  "name": "tagName",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "key": "field_tags_names_tag_3",
+              "label": "Tag 3",
+              "name": "tag_3",
+              "type": "group",
+              "sub_fields": [
+                {
+                  "key": "field_tags_names_tag_3_tagName",
+                  "label": "Tagname",
+                  "name": "tagName",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "key": "field_tags_names_tag_4",
+              "label": "Tag 4",
+              "name": "tag_4",
+              "type": "group",
+              "sub_fields": [
+                {
+                  "key": "field_tags_names_tag_4_tagName",
+                  "label": "Tagname",
+                  "name": "tagName",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "key": "field_tags_names_tag_5",
+              "label": "Tag 5",
+              "name": "tag_5",
+              "type": "group",
+              "sub_fields": [
+                {
+                  "key": "field_tags_names_tag_5_tagName",
+                  "label": "Tagname",
+                  "name": "tagName",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "key": "field_tags_names_tag_6",
+              "label": "Tag 6",
+              "name": "tag_6",
+              "type": "group",
+              "sub_fields": [
+                {
+                  "key": "field_tags_names_tag_6_tagName",
+                  "label": "Tagname",
+                  "name": "tagName",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "key": "field_tags_names_tag_7",
+              "label": "Tag 7",
+              "name": "tag_7",
+              "type": "group",
+              "sub_fields": [
+                {
+                  "key": "field_tags_names_tag_7_tagName",
+                  "label": "Tagname",
+                  "name": "tagName",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "key": "field_tags_names_tag_8",
+              "label": "Tag 8",
+              "name": "tag_8",
+              "type": "group",
+              "sub_fields": [
+                {
+                  "key": "field_tags_names_tag_8_tagName",
+                  "label": "Tagname",
+                  "name": "tagName",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "key": "field_tags_names_tag_9",
+              "label": "Tag 9",
+              "name": "tag_9",
+              "type": "group",
+              "sub_fields": [
+                {
+                  "key": "field_tags_names_tag_9_tagName",
+                  "label": "Tagname",
+                  "name": "tagName",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "key": "field_tags_names_tag_10",
+              "label": "Tag 10",
+              "name": "tag_10",
+              "type": "group",
+              "sub_fields": [
+                {
+                  "key": "field_tags_names_tag_10_tagName",
+                  "label": "Tagname",
+                  "name": "tagName",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "key": "field_tags_names_tag_11",
+              "label": "Tag 11",
+              "name": "tag_11",
+              "type": "group",
+              "sub_fields": [
+                {
+                  "key": "field_tags_names_tag_11_tagName",
+                  "label": "Tagname",
+                  "name": "tagName",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "key": "field_tags_names_tag_12",
+              "label": "Tag 12",
+              "name": "tag_12",
+              "type": "group",
+              "sub_fields": [
+                {
+                  "key": "field_tags_names_tag_12_tagName",
+                  "label": "Tagname",
+                  "name": "tagName",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "key": "field_tags_names_tag_13",
+              "label": "Tag 13",
+              "name": "tag_13",
+              "type": "group",
+              "sub_fields": [
+                {
+                  "key": "field_tags_names_tag_13_tagName",
+                  "label": "Tagname",
+                  "name": "tagName",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "key": "field_tags_names_tag_14",
+              "label": "Tag 14",
+              "name": "tag_14",
+              "type": "group",
+              "sub_fields": [
+                {
+                  "key": "field_tags_names_tag_14_tagName",
+                  "label": "Tagname",
+                  "name": "tagName",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "key": "field_tags_names_tag_15",
+              "label": "Tag 15",
+              "name": "tag_15",
+              "type": "group",
+              "sub_fields": [
+                {
+                  "key": "field_tags_names_tag_15_tagName",
+                  "label": "Tagname",
+                  "name": "tagName",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "field_text_cards",
+      "label": "Text Cards",
+      "name": "text_cards",
+      "type": "group",
+      "sub_fields": [
+        {
+          "key": "field_text_cards_items",
+          "label": "Text Card",
+          "name": "text_cards",
+          "type": "group",
+          "sub_fields": [
+            {
+              "key": "field_text_cards_items_card_1",
+              "label": "Text Card 1",
+              "name": "card_1",
+              "type": "group",
+              "sub_fields": [
+                {
+                  "key": "field_text_cards_items_card_1_title",
+                  "label": "Title",
+                  "name": "title",
+                  "type": "text"
+                },
+                {
+                  "key": "field_text_cards_items_card_1_description",
+                  "label": "Description",
+                  "name": "description",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "key": "field_text_cards_items_card_2",
+              "label": "Text Card 2",
+              "name": "card_2",
+              "type": "group",
+              "sub_fields": [
+                {
+                  "key": "field_text_cards_items_card_2_title",
+                  "label": "Title",
+                  "name": "title",
+                  "type": "text"
+                },
+                {
+                  "key": "field_text_cards_items_card_2_description",
+                  "label": "Description",
+                  "name": "description",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "key": "field_text_cards_items_card_3",
+              "label": "Text Card 3",
+              "name": "card_3",
+              "type": "group",
+              "sub_fields": [
+                {
+                  "key": "field_text_cards_items_card_3_title",
+                  "label": "Title",
+                  "name": "title",
+                  "type": "text"
+                },
+                {
+                  "key": "field_text_cards_items_card_3_description",
+                  "label": "Description",
+                  "name": "description",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "field_form",
+      "label": "Formulário",
+      "name": "form",
+      "type": "group",
+      "sub_fields": [
+        {
+          "key": "field_form_title",
+          "label": "Título",
+          "name": "title",
+          "type": "text"
+        },
+        {
+          "key": "field_form_subtitle",
+          "label": "Subtítulo",
+          "name": "subtitle",
+          "type": "text"
+        },
+        {
+          "key": "field_form_info",
+          "label": "Informação",
+          "name": "info",
+          "type": "text"
+        },
+        {
+          "key": "field_form_image",
+          "label": "Imagem",
+          "name": "image",
+          "type": "image",
+          "return_format": "url"
+        }
+      ]
+    },
+    {
+      "key": "field_fields",
+      "label": "Campos do Formulário",
+      "name": "fields",
+      "type": "group",
+      "sub_fields": [
+        {
+          "key": "field_fields_items",
+          "label": "Campo",
+          "name": "fields",
+          "type": "group",
+          "sub_fields": [
+            {
+              "key": "field_fields_items_field_1",
+              "label": "Campo 1",
+              "name": "field_1",
+              "type": "group",
+              "sub_fields": [
+                {
+                  "key": "field_fields_items_field_1_name",
+                  "label": "Name",
+                  "name": "name",
+                  "type": "text"
+                },
+                {
+                  "key": "field_fields_items_field_1_placeholder",
+                  "label": "Placeholder",
+                  "name": "placeholder",
+                  "type": "text"
+                },
+                {
+                  "key": "field_fields_items_field_1_type",
+                  "label": "Type",
+                  "name": "type",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "key": "field_fields_items_field_2",
+              "label": "Campo 2",
+              "name": "field_2",
+              "type": "group",
+              "sub_fields": [
+                {
+                  "key": "field_fields_items_field_2_name",
+                  "label": "Name",
+                  "name": "name",
+                  "type": "text"
+                },
+                {
+                  "key": "field_fields_items_field_2_placeholder",
+                  "label": "Placeholder",
+                  "name": "placeholder",
+                  "type": "text"
+                },
+                {
+                  "key": "field_fields_items_field_2_type",
+                  "label": "Type",
+                  "name": "type",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "key": "field_fields_items_field_3",
+              "label": "Campo 3",
+              "name": "field_3",
+              "type": "group",
+              "sub_fields": [
+                {
+                  "key": "field_fields_items_field_3_name",
+                  "label": "Name",
+                  "name": "name",
+                  "type": "text"
+                },
+                {
+                  "key": "field_fields_items_field_3_placeholder",
+                  "label": "Placeholder",
+                  "name": "placeholder",
+                  "type": "text"
+                },
+                {
+                  "key": "field_fields_items_field_3_type",
+                  "label": "Type",
+                  "name": "type",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "key": "field_fields_items_field_4",
+              "label": "Campo 4",
+              "name": "field_4",
+              "type": "group",
+              "sub_fields": [
+                {
+                  "key": "field_fields_items_field_4_name",
+                  "label": "Name",
+                  "name": "name",
+                  "type": "text"
+                },
+                {
+                  "key": "field_fields_items_field_4_placeholder",
+                  "label": "Placeholder",
+                  "name": "placeholder",
+                  "type": "text"
+                },
+                {
+                  "key": "field_fields_items_field_4_type",
+                  "label": "Type",
+                  "name": "type",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "field_links_footer",
+      "label": "Links do Rodapé",
+      "name": "links_footer",
+      "type": "group",
+      "sub_fields": [
+        {
+          "key": "field_links_footer_title",
+          "label": "Título",
+          "name": "title",
+          "type": "text"
+        },
+        {
+          "key": "field_links_footer_links",
+          "label": "Link",
+          "name": "links",
+          "type": "group",
+          "sub_fields": [
+            {
+              "key": "field_links_footer_links_link_1",
+              "label": "Link 1",
+              "name": "link_1",
+              "type": "group",
+              "sub_fields": [
+                {
+                  "key": "field_links_footer_links_link_1_name",
+                  "label": "Name",
+                  "name": "name",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "key": "field_links_footer_links_link_2",
+              "label": "Link 2",
+              "name": "link_2",
+              "type": "group",
+              "sub_fields": [
+                {
+                  "key": "field_links_footer_links_link_2_name",
+                  "label": "Name",
+                  "name": "name",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "key": "field_links_footer_links_link_3",
+              "label": "Link 3",
+              "name": "link_3",
+              "type": "group",
+              "sub_fields": [
+                {
+                  "key": "field_links_footer_links_link_3_name",
+                  "label": "Name",
+                  "name": "name",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "key": "field_links_footer_links_link_4",
+              "label": "Link 4",
+              "name": "link_4",
+              "type": "group",
+              "sub_fields": [
+                {
+                  "key": "field_links_footer_links_link_4_name",
+                  "label": "Name",
+                  "name": "name",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "field_users",
+      "label": "Usuários",
+      "name": "users",
+      "type": "text",
+      "sub_fields": [
+        {
+          "key": "field_user_data",
+          "label": "Dados do Usuário",
+          "name": "user_data",
+          "type": "group",
+          "sub_fields": [
+            {
+              "key": "field_user_nome",
+              "label": "Nome",
+              "name": "nome",
+              "type": "text"
+            },
+            {
+              "key": "field_user_email",
+              "label": "E-mail",
+              "name": "email",
+              "type": "email"
+            },
+            {
+              "key": "field_user_idade",
+              "label": "Idade",
+              "name": "idade",
+              "type": "number"
+            },
+            {
+              "key": "field_user_cidade",
+              "label": "Cidade",
+              "name": "cidade",
+              "type": "text"
+            },
+            {
+              "key": "field_user_data_cadastro",
+              "label": "Data de Cadastro",
+              "name": "data_cadastro",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "post_type",
+        "operator": "==",
+        "value": "json_bloco"
+      }
+    ]
+  ],
+  "position": "normal",
+  "style": "default",
+  "active": true
+}
